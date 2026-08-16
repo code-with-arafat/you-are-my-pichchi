@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #fff1f2,
+    #ffe4e6,
+    #fce7f3
+  );
+  color: #3f3f46;
+  overflow: hidden;
+}
+
+.page {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 20px;
+  text-align: center;
+
+  animation: fadeIn 0.7s ease;
+}
+
+.first-page {
+  justify-content: center;
+}
+
+.small-intro {
+  font-size: 16px;
+  color: #a855f7;
+  margin-bottom: 15px;
+}
+
+.first-page h1 {
+  font-size: 58px;
+  line-height: 1.1;
+  color: #be185d;
+  margin-bottom: 20px;
+}
+
+.first-page h1 span {
+  color: #ec4899;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #71717a;
+  margin-bottom: 35px;
+}
+
+.floating-heart {
+  font-size: 65px;
+  margin-bottom: 15px;
+  animation: heartbeat 1.5s infinite;
+}
+
+.top-heart {
+  font-size: 55px;
+  margin-bottom: 20px;
+  animation: heartbeat 1.5s infinite;
+}
+
+.page h2 {
+  font-size: 32px;
+  color: #be185d;
+  margin-bottom: 25px;
+}
+
+.story-card,
+.letter-card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 25px;
+  padding: 28px 22px;
+
+  box-shadow: 0 15px 40px rgba(190, 24, 93, 0.12);
+
+  backdrop-filter: blur(10px);
+
+  margin-bottom: 30px;
+}
+
+.story-card p,
+.letter-card p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.highlight {
+  color: #db2777;
+  font-size: 19px !important;
+}
+
+.main-btn {
+  border: none;
+  outline: none;
+
+  padding: 15px 30px;
+
+  border-radius: 50px;
+
+  background: linear-gradient(
+    135deg,
+    #ec4899,
+    #db2777
+  );
+
+  color: white;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  box-shadow: 0 10px 25px rgba(219, 39, 119, 0.25);
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.main-btn:active {
+  transform: scale(0.95);
+}
+
+.letter-card {
+  text-align: left;
+}
+
+.final-letter {
+  text-align: center;
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  background: #f9a8d4;
+  margin: 25px auto;
+}
+
+.iti {
+  color: #71717a;
+}
+
+.final-letter h3 {
+  margin-top: 15px;
+  color: #be185d;
+  font-size: 24px;
+}
+
+.proposal-page {
+  position: relative;
+}
+
+.big-floating-heart {
+  font-size: 90px;
+  animation: heartbeat 1.3s infinite;
+  margin-bottom: 20px;
+}
+
+.proposal-small {
+  color: #a855f7;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.proposal-title {
+  font-size: 38px;
+  line-height: 1.25;
+  color: #be185d;
+  margin-bottom: 25px;
+}
+
+.proposal-title span {
+  color: #db2777;
+}
+
+.proposal-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #52525b;
+  margin-bottom: 35px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 70px;
+}
+
+.yes-btn,
+.no-btn {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.yes-btn {
+  background: #ec4899;
+  color: white;
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.3);
+}
+
+.no-btn {
+  background: #e4e4e7;
+  color: #52525b;
+  transition: transform 0.3s ease;
+}
+
+.think-text {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+.success-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px;
+
+  text-align: center;
+
+  background: linear-gradient(
+    135deg,
+    #ec4899,
+    #db2777,
+    #9333ea
+  );
+
+  color: white;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.success-card {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 35px 25px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  border-radius: 30px;
+
+  backdrop-filter: blur(15px);
+
+  animation: fadeIn 1s ease;
+}
+
+.big-heart {
+  font-size: 90px;
+  animation: heartbeat 1.2s infinite;
+}
+
+.success-card h1 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+
+.success-card p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.success-card .small-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.emoji-row {
+  font-size: 35px;
+  margin: 25px 0;
+}
+
+.signature {
+  font-size: 16px !important;
+}
+
+.hearts {
+  position: absolute;
+  top: 30px;
+  font-size: 25px;
+  animation: float 3s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 380px) {
+  .first-page h1 {
+    font-size: 48px;
+  }
+
+  .page h2 {
+    font-size: 28px;
+  }
+
+  .story-card,
+  .letter-card {
+    padding: 22px 18px;
+  }
+
+  .story-card p,
+  .letter-card p {
+    font-size: 15px;
+  }
+
+  .proposal-title {
+    font-size: 32px;
+  }
+
+  .proposal-text {
+    font-size: 16px;
+  }
+
+  .yes-btn,
+  .no-btn {
+    padding: 13px 24px;
+    font-size: 16px;
+  }
+}
