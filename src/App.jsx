@@ -29,7 +29,7 @@ function App() {
         <div className="page entrance-page">
           <div className="top-heart">💌</div>
           
-          <h1>এই Miss Jannat শুনো না একটা কথা বলি 🥺❤️</h1>
+          <h1><span className="special-name-font">Jannat</span> শুনো না একটা কথা বলি 🥺❤️</h1>
           
           <p>
             তোমার সাথে কিছু কথা ছিল যেগুলা হইতো কখনো বলা হয়নি...
@@ -91,7 +91,7 @@ function App() {
           <div className="signature">
             ইতি,
             <br />
-            তোমার বটপার ছেলে
+            তোমার জীবনে দেখা সব থেকে বড় চাপাবাজ ছেলে
             <br />
             <strong>আরাফাত ❤️</strong>
           </div>

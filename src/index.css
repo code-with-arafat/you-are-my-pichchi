@@ -113,6 +113,10 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
+.special-name-font{
+    font-family: "Great Vibes", cursive;
+}
+
 .first-story h1 {
   font-family: "Great Vibes", cursive;
   font-size: 50px;
