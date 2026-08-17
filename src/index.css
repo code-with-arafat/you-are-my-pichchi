@@ -115,7 +115,17 @@ button {
 
 .special-name-font{
     font-family: "Great Vibes", cursive;
+    padding-right: 10px;
 }
+
+.special-bangla-font{
+    font-family: "Galada", cursive;
+}
+
+.special-english-font{
+    font-family: "Alkatra", system-ui;
+}
+
 
 .first-story h1 {
   font-family: "Great Vibes", cursive;

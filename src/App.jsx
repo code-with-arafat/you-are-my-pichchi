@@ -29,9 +29,9 @@ function App() {
         <div className="page entrance-page">
           <div className="top-heart">💌</div>
           
-          <h1><span className="special-name-font">Jannat</span> শুনো না একটা কথা বলি 🥺❤️</h1>
+          <h1 className="special-bangla-font"><span className="special-name-font">Jannat </span> শুনো না --</h1>
           
-          <p>
+          <p className="special-bangla-font">
             তোমার সাথে কিছু কথা ছিল যেগুলা হইতো কখনো বলা হয়নি...
             <br />
             একটু সময় নিয়ে শেষ পর্যন্ত দেখো কিন্তু! 😊
@@ -60,7 +60,7 @@ function App() {
           ❤️ 💕 ❤️ 💕 ❤️
         </div>
 
-        <div className="success-card">
+        <div className="success-card special-bangla-font">
 
           <div className="success-heart">
             💖
@@ -115,7 +115,7 @@ function App() {
             ❤️
           </div>
 
-          <div className="first-story">
+          <div className="first-story special-bangla-font">
 
             <h1>
               Hey Miss Jannat ❤️
@@ -188,11 +188,11 @@ function App() {
             💌
           </div>
 
-          <h2>
+          <h2 className="special-bangla-font">
             তারপর... ❤️
           </h2>
 
-          <div className="story-card">
+          <div className="story-card special-bangla-font">
 
             <p>
               সেই টুকটাক কথাগুলো যে কখন
@@ -253,11 +253,11 @@ function App() {
             🥺
           </div>
 
-          <h2>
+          <h2 className="special-bangla-font">
             সত্যি বলতে... ❤️
           </h2>
 
-          <div className="letter-card">
+          <div className="letter-card special-bangla-font">
 
             <p>
               সত্যি বলতে জানি না আমাদের
@@ -325,7 +325,7 @@ function App() {
             🌹
           </div>
 
-          <div className="letter-card final-letter">
+          <div className="letter-card final-letter special-bangla-font">
 
             <p>
               সব সময় ভালো থাকো,
@@ -343,7 +343,7 @@ function App() {
               তোমার দেখা সব থেকে
               <br />
               <strong>
-                খারাপ বটপার ছেলে 😌
+                খারাপ বাটপার ছেলে 😌
               </strong>
             </p>
 
@@ -368,7 +368,7 @@ function App() {
       ================================= */}
 
       {page === 4 && (
-        <div className="page proposal-page">
+        <div className="page proposal-page special-bangla-font">
 
           <div className="big-floating-heart">
             ❤️
@@ -378,7 +378,7 @@ function App() {
             এত কিছু বলার পর...
           </p>
 
-          <h1 className="proposal-title">
+          <h1 className="proposal-title special-english-font">
 
             Miss Jannat...
 
