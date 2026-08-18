@@ -113,7 +113,6 @@ body {
   outline: none;
 
   padding: 15px 30px;
-
   border-radius: 50px;
 
   background: linear-gradient(
@@ -123,15 +122,12 @@ body {
   );
 
   color: white;
-
   font-size: 17px;
   font-weight: 700;
-
   box-shadow: 0 10px 25px rgba(219, 39, 119, 0.25);
-
   cursor: pointer;
-
   transition: 0.3s;
+
 }
 
 .main-btn:active {
@@ -236,13 +232,10 @@ body {
 
 .success-page {
   min-height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 25px;
-
   text-align: center;
 
   background: linear-gradient(
@@ -253,26 +246,18 @@ body {
   );
 
   color: white;
-
   position: relative;
-
   overflow: hidden;
 }
 
 .success-card {
   width: 100%;
   max-width: 500px;
-
   padding: 35px 25px;
-
   background: rgba(255, 255, 255, 0.15);
-
   border: 1px solid rgba(255, 255, 255, 0.3);
-
   border-radius: 30px;
-
   backdrop-filter: blur(15px);
-
   animation: fadeIn 1s ease;
 }
 
