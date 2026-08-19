@@ -118,6 +118,11 @@ button {
     padding-right: 10px;
 }
 
+.not-available{
+  font-size: 20px;
+  color: red;
+}
+
 .special-bangla-font{
     font-family: "Galada", cursive;
 }

@@ -27,7 +27,8 @@ function App() {
     return (
       <div className="app">
         <div className="page entrance-page">
-          <div className="top-heart">💌</div>
+          <p className="special-english-font">Sorry Miss Jannat!<br/> Now Arafat Is Not Available For You! </p>
+          {/* <div className="top-heart">💌</div>
           
           <h1 className="special-bangla-font"><span className="special-name-font">Jannat </span> শুনো না --</h1>
           
@@ -42,7 +43,7 @@ function App() {
             className="main-btn"
           >
             কী কথা? শুনবো! ✨
-          </button>
+          </button> */}
         </div>
       </div>
     );
